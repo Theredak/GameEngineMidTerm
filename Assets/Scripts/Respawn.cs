@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Respawn : MonoBehaviour
 {
     [SerializeField] public Transform Player;
@@ -10,5 +11,6 @@ public class Respawn : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Player.transform.position = respawnPoint.transform.position;
+        
     }
 }

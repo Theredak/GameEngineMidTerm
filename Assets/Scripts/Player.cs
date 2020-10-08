@@ -28,21 +28,21 @@ public class Player : MonoBehaviour
             // forward and backward movement
             if (Input.GetKey(KeyCode.W))
             {
-                transform.Translate(new Vector3(0, 0, movementSpeed * speedMult * Time.deltaTime));
+                transform.Translate(new Vector3(0, 0, movementSpeed * Time.deltaTime));
             }
             else if (Input.GetKey(KeyCode.S))
             {
-                transform.Translate(new Vector3(0, 0, -movementSpeed * speedMult * Time.deltaTime));
+                transform.Translate(new Vector3(0, 0, -movementSpeed * Time.deltaTime));
             }
 
             // leftward and rightward movement
             if (Input.GetKey(KeyCode.A))
             {
-                transform.Translate(new Vector3(-movementSpeed * speedMult * Time.deltaTime, 0, 0));
+                transform.Translate(new Vector3(-movementSpeed * Time.deltaTime, 0, 0));
             }
             else if (Input.GetKey(KeyCode.D))
             {
-                transform.Translate(new Vector3(movementSpeed * speedMult * Time.deltaTime, 0, 0));
+                transform.Translate(new Vector3(movementSpeed * Time.deltaTime, 0, 0));
             }
 
 
