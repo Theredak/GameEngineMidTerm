@@ -64,13 +64,14 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayButton.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint5.cs" />
     <Compile Include="Assets\Scripts\ProgressBar.cs" />
     <Compile Include="Assets\Scripts\Checkpoint3.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint4.cs" />
     <Compile Include="Assets\Scripts\Wall2.cs" />
     <Compile Include="Assets\Scripts\Checkpoint.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint4.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint5.cs" />
+    <Compile Include="Assets\Scripts\PluginManager.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
