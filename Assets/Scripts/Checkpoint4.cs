@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class Checkpoint4 : MonoBehaviour
 {
+    public bool Touching4 = false;
+
     [SerializeField] public Transform Player;
     [SerializeField] public Transform respawnPoint;
 
@@ -14,6 +16,6 @@ public class Checkpoint4 : MonoBehaviour
     {
         Player.transform.position = respawnPoint.transform.position;
         _progressbar.IncrementProgress(0.2f);
-
+        Touching4 = true;
     }
 }

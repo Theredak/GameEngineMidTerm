@@ -1867,6 +1867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e6b1b7fc5513594a81826c0c3ea0c71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Touching: 0
   Player: {fileID: 1760495638}
   respawnPoint: {fileID: 1489666888}
   _progressbar: {fileID: 2126974569}
@@ -2201,6 +2202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebb2c5d61959cc644b776b2a3e799598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Ending: 0
   Player: {fileID: 0}
   respawnPoint: {fileID: 0}
 --- !u!65 &803950688
@@ -6306,6 +6308,7 @@ GameObject:
   - component: {fileID: 1760495638}
   - component: {fileID: 1760495637}
   - component: {fileID: 1760495639}
+  - component: {fileID: 1760495640}
   m_Layer: 0
   m_Name: First Person Character
   m_TagString: Untagged
@@ -6362,6 +6365,20 @@ MonoBehaviour:
   controller: {fileID: 1760495637}
   speed: 12
   gravity: -9.81
+--- !u!114 &1760495640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760495636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ac30c5fb4e13aa4bbd58023f7e7c0cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Checkpoint: {fileID: 706001154}
+  _FinalScene: {fileID: 803950687}
 --- !u!1 &1761824998
 GameObject:
   m_ObjectHideFlags: 0
